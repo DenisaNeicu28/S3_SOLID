@@ -1,4 +1,4 @@
-package ro.ase.acs.sql;
+package ro.ase.acs.main;
 
 import ro.ase.acs.classes.DataInserter;
 import ro.ase.acs.classes.DataReader;
