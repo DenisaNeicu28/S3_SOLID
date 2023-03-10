@@ -1,0 +1,2 @@
+# S3_SOLID
+Seminar 3 CTS -SOLID
