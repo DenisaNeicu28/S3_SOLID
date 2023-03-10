@@ -3,14 +3,16 @@ package ro.ase.acs.main;
 import ro.ase.acs.classes.DataInserter;
 import ro.ase.acs.classes.DataReader;
 import ro.ase.acs.classes.TableCreator;
+import ro.ase.acs.exceptions.InvalidConnectionException;
 import ro.ase.acs.interfaces.Creator;
 import ro.ase.acs.interfaces.Inserter;
 import ro.ase.acs.interfaces.Reader;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.SQLException;
 
-public class Main {
+public class Main{
 
     public static void main(String[] args) {
         try {
